@@ -1,12 +1,10 @@
 package com.gmail.qa.ko.ya;
-
 import java.util.Scanner;
-
-public class Main {
-
+public class Main 
+{
 	private static Scanner sc;
-
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		sc = new Scanner(System.in);
 		System.out.println("Введите сторону А");
 		double a = sc.nextDouble();
@@ -19,5 +17,4 @@ public class Main {
 		double s = Math.sqrt(x);
 		System.out.println("S треугольника:" + s);
 	}
-
 }
