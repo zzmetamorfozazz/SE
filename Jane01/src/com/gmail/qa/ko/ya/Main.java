@@ -10,7 +10,7 @@ public class Main {
 		int secondNumb = num % 10000 / 1000;
 		int thirdNumb = num % 10000 % 1000 / 100;
 		int fourthNumb = num % 10000 % 1000 % 100 / 10;
-		int fifthNumb = num % 10000 % 1000 % 100 % 10 / 1;
+		int fifthNumb = num % 10000 % 1000 % 100 % 10;
 		System.out.println(firstNumb);
 		System.out.println(secondNumb);
 		System.out.println(thirdNumb);
