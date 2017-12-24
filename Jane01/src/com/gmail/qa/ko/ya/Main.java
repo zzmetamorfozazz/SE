@@ -16,6 +16,5 @@ public class Main {
 		System.out.println(thirdNumb);
 		System.out.println(fourthNumb);
 		System.out.println(fifthNumb);
-		
 	}
 }
