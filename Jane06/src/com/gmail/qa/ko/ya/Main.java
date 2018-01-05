@@ -12,11 +12,11 @@ public class Main {
 
 		int days = sc.nextInt();
 		if (days % 4 == 0 || days % 400 == 0) {
-			System.out.println("Год высокостный");
+			System.out.println("Year high");
 		} else if (days % 100 == 0) {
-			System.out.println("Год не высокостный");
+			System.out.println("Not a leap year");
 		}else{
-			System.out.println("Год не высокостный");
+			System.out.println("Not a leap year");
 		}
 	}
 
